@@ -1,0 +1,24 @@
+.empty-state {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #808080;
+    text-align: center;
+}
+.empty-state_img{
+    margin-bottom: 4.6rem;
+}
+.empty-state_text{
+    font-size: 2.2rem;
+    line-height: 3.1rem;
+    text-align: center;
+}
+.empty-repos-state{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  color: #808080;
+  text-align: center;
+}

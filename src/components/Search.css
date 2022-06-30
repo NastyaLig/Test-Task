@@ -1,0 +1,28 @@
+.search-form {
+    width: 50rem;
+    height: 4rem;
+    position: relative; 
+}
+.search-form_input{
+    border-radius: 0.6rem;
+    outline: none;
+    margin-left: 2.202rem;
+    font-size: 1.4rem;
+    padding-left: 4rem;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.search-form_input::-webkit-search-cancel-button {
+    margin-right: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.search-form_icon{
+    position: absolute;
+    height: 1.4rem;
+    width: 1.4rem;
+    color:#808080;
+    left: 3.6rem;
+    top: 1.3rem;
+}

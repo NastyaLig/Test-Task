@@ -1,0 +1,38 @@
+.user-info{
+    flex: 0 0 22%;
+}
+.user-info_name{
+    margin-top: 2.9rem;
+    margin-bottom: 1.2rem;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+}
+.user-info_link{
+    text-decoration: none;
+    display: inline-block;
+    color: #0064eb;
+    transition: color 0.4s ease;
+    margin-bottom: 2.524rem;
+}
+.user-info_login{
+    font-size: 1.8rem;
+}
+.user-info_bottom {
+    display: flex;
+}
+.user-info_bottom-followers {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.user-info_bottom-followers.followers_img{
+    margin-right: 0.9rem;
+}
+.user-info_bottom-following{
+    display: flex;
+}
+
+.user-info_bottom-following.following_img{
+    margin-right: 0.9rem;
+}

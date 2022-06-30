@@ -1,0 +1,46 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color:#808080;
+    line-height: 2.1rem;
+    font-size: 1.4rem;
+}
+.page_info {
+    margin-right: 2.4rem;
+}
+.page_menu {
+    display: flex;
+}
+.page_previous {
+    list-style: none;
+    margin-right: 2.5rem;
+    color:#0064eb;
+    font-weight: 500;
+    cursor: pointer;
+}
+.page_next {
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+}
+.page_break {
+    list-style: none;
+    margin-right: 1.6rem;
+    cursor: pointer;
+}
+.page_page {
+    list-style: none;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+.page_page:not(:last-child) {
+    margin-right: 1.6rem;
+}
+.page_page_active {
+    background-color:#0064eb;
+    color: #fff;
+    height: 2.5rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.3rem;
+}
