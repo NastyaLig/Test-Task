@@ -5,7 +5,7 @@ import Image from "components/Img";
 import "./Userinfo.css";
 
 const Userinfo = ({user}) => {
-    const { name, html_url, avatar_url, login, following,Followers}= user;
+    const { name, html_url, avatar_url, login, following, followers}= user;
     const roundedFollowers = useRounder(followers);
     const roundedFollowing = useRounder(following);
 

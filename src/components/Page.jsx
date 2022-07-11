@@ -2,7 +2,7 @@ import { useState } from "react";
 import ReactPaginate from "react-paginate";
 import "./Page.css";
 
-const Page = ({ publicRepos, setCurrentPage }) => {
+const Pagination = ({ publicRepos, setCurrentPage }) => {
   const [page, setPage] = useState(1);
 
   const handleChange = (data) => {
@@ -38,4 +38,4 @@ const Page = ({ publicRepos, setCurrentPage }) => {
   );
 };
 
-export default Page;
+export default Pagination;

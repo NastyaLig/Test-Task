@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import getRepos from "api/repos";
+import getRepos from "api/rep";
 import NoRepos from "assets/repos.svg";
 import Repo from "components/Rep";
-import Pagination from "components/Pagination";
+import Pagination from "components/Page";
 import Spinner from "components/Spinner";
 import EmptyState from "components/EmptyState";
 import "./Repository.css";
